@@ -140,7 +140,7 @@ table, th, td{
     background-color: lightgrey;
     padding: 20px;
     border-spacing: 5px;
-    text-align: justify;
+    text-align: left;
 }
 .about
 {
@@ -184,4 +184,16 @@ border-radius: 25px;
 height: 100px;
 border-radius: 25px;
 margin-left: 0px;
+}
+a:link {
+ color: white;   
+}
+a:visited {
+    color:aqua;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: aqua;
 }
